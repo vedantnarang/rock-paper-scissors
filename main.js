@@ -86,6 +86,11 @@ function clearModal(e) {
     });
   }
 }
+function updateScores() {
+  userScore_span.innerHTML = userScore;
+  cpuScore_span.innerHTML = cpuScore;
+}
+
 
 function restartGame() {
   userScore = 0;
