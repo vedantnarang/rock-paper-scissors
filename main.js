@@ -93,6 +93,10 @@ function restartGame() {
   userScore_span.innerHTML = userScore;
   cpuScore_span.innerHTML = cpuScore;
 }
+function hideModal() {
+  modal.style.display = 'none';
+}
+
 
 restart.addEventListener('click', restartGame);
 window.addEventListener('click', clearModal);
