@@ -101,6 +101,11 @@ function restartGame() {
 function hideModal() {
   modal.style.display = 'none';
 }
+function updateScores() {
+  userScore_span.innerHTML = userScore;
+  cpuScore_span.innerHTML = cpuScore;
+}
+
 
 
 restart.addEventListener('click', restartGame);
